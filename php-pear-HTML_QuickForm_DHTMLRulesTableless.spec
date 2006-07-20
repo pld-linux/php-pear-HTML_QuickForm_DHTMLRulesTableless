@@ -5,7 +5,7 @@
 %define		_pearname	HTML_QuickForm_DHTMLRulesTableless
 
 Summary:	%{_pearname} - DHTML replacement for the standard JavaScript alert window for client-side validation using the tableless renderer
-Summary(pl):	%{_pearname} - zamiennik DHTML dla standardowego okna z ostrze¿eniem JavaScript dla sprawdzania poprawo¶ci po stronie klienta
+Summary(pl):	%{_pearname} - zamiennik DHTML dla standardowego okna z ostrze¿eniem JavaScript dla sprawdzania poprawno¶ci po stronie klienta
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
 Release:	1
