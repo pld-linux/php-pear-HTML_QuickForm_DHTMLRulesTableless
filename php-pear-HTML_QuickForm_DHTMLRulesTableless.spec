@@ -7,7 +7,7 @@ Summary:	%{_pearname} - DHTML replacement for the standard JavaScript alert wind
 Summary(pl):	%{_pearname} - zamiennik DHTML dla standardowego okna z ostrze¿eniem JavaScript dla sprawdzania poprawno¶ci po stronie klienta
 Name:		php-pear-%{_pearname}
 Version:	0.1.2
-Release:	1
+Release:	2
 License:	PHP 3.01
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
