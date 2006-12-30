@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - DHTML replacement for the standard JavaScript alert window for client-side validation using the tableless renderer
 Summary(pl):	%{_pearname} - zamiennik DHTML dla standardowego okna z ostrze¿eniem JavaScript dla sprawdzania poprawno¶ci po stronie klienta
 Name:		php-pear-%{_pearname}
-Version:	0.1.2
-Release:	2
+Version:	0.2.3
+Release:	1
 License:	PHP 3.01
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	2a07765fd57baffab242a4eede82955e
+# Source0-md5:	fb6064b638699e0547dcacad14f8b940
 URL:		http://pear.php.net/package/HTML_QuickForm_DHTMLRulesTableless/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
