@@ -1,17 +1,17 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		HTML
 %define		_subclass	QuickForm_DHTMLRulesTableless
-%define		_status		alpha
+%define		_status		beta
 %define		_pearname	HTML_QuickForm_DHTMLRulesTableless
 Summary:	%{_pearname} - DHTML replacement for the standard JavaScript alert window for client-side validation using the tableless renderer
 Summary(pl.UTF-8):	%{_pearname} - zamiennik DHTML dla standardowego okna z ostrzeżeniem JavaScript dla sprawdzania poprawności po stronie klienta
 Name:		php-pear-%{_pearname}
-Version:	0.2.3
+Version:	0.3.2
 Release:	1
 License:	PHP 3.01
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	fb6064b638699e0547dcacad14f8b940
+# Source0-md5:	0210c08615c50e4165d4eff0bd5c3b32
 URL:		http://pear.php.net/package/HTML_QuickForm_DHTMLRulesTableless/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -51,4 +51,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc install.log docs/%{_pearname}/docs/examples/contact_dhtmlrules.php
 %{php_pear_dir}/.registry/*.reg
-%{php_pear_dir}/HTML/QuickForm/DHTMLRulesTableless.php
+%{php_pear_dir}/HTML/QuickForm/*.php
