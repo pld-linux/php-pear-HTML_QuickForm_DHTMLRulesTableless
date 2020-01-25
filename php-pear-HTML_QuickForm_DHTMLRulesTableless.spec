@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		beta
 %define		_pearname	HTML_QuickForm_DHTMLRulesTableless
 Summary:	%{_pearname} - DHTML replacement for the standard JavaScript alert window for client-side validation using the tableless renderer
